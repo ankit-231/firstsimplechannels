@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+*.sqlite3
+*.db
+
+# Django migration files
+/migrations/
+**/migrations/
+
+# Secret key
+secret.key
+
+# Visual Studio Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Logs
+*.log
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore generated files
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Ignore local settings
+local_settings.py
+
+# Ignore static files
+staticfiles/
+
+# Ignore media files
+media/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Ignore Linux swap files
+*~
+
+# Ignore node_modules directory
+node_modules/
